@@ -1,0 +1,67 @@
+.title {
+    font-family: 'Shadows Into Light','Brush Script MT';
+    position: relative;
+    justify-content: center;
+    text-align:center;
+    font-size:5rem;
+    padding-top:2%;
+}
+
+.nav-item {
+    font-family: 'Shadows Into Light','Brush Script MT';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    background: rgb(156, 223, 156);
+    position: fixed;
+    color: black !important;
+}
+
+.btn {
+    padding:0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight:900;
+    text-transform: uppercase;
+    border: 3px green solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    flex-grow: 1;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    text-decoration:underline
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    width: 200px;
+    height: 350px;
+  }
+
+  h6 {
+    color: black;
+    padding: 5px;
+  }

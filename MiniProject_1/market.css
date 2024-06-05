@@ -1,0 +1,42 @@
+.title {
+    font-family: 'Shadows Into Light','Brush Script MT';
+    position: relative;
+    justify-content: center;
+    text-align:center;
+    font-size:5rem;
+    padding-top:2%;
+}
+
+.nav-item {
+    font-family: 'Shadows Into Light','Brush Script MT';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    background: rgb(156, 223, 156);
+    position: fixed;
+    color: black !important;
+}
+
+.btn {
+    margin-left: 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight:900;
+    text-transform: uppercase;
+    border: 3px green solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  input {
+    margin-top: 5%;
+    border: 2px solid green;
+    border-radius: 4px;
+  }
+
+  .post {
+    margin-left: 15%;
+  }
